@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,136 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <title>TravelTheWorld</title>
 </head>
+
 <body>
 
-<!--|||||||||||N A V B A R||||||||||-->
+    <!--|||||||||||N A V B A R||||||||||-->
 
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#"><img src="img/Logo.png"></a>
-            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Nos Formules</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Partenaires</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="img/Logo.png"></a>
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Nos Formules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Partenaires</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      
+    </nav>
 
+    <section class="promotion">
+        <p>-15% sur tous les séjours en formule premium ou excellence pour toute réservation avant le 14 juin 2022</p>
+    </section>
 
+    <div class="advantages">
+        <div class="adv-icons"><img src="Destinations.png" alt="destinations">
+            <p>100 destinations disponibles</p>
+        </div>
+        <div class="adv-icons"><img src="Annulation.png" alt="annulation">
+            <p>Annulation gratuite 1 semaine avant</p>
+        </div>
+        <div class="adv-icons"><img src="30ans.png" alt="expertise">
+            <p>30 ans d'expérience</p>
+        </div>
+    </div>
 
+    <div class="video">
+        <h2>Apprenez-en plus sur Goa, Inde</h2>
+        <iframe src="https://www.youtube.com/embed/a-DRBUWqXEM" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
 
+    <div id="reservation">
+        <div class="form">
+            <h2>Réservez votre voyage</h2>
+            <form action="">
+                <div class="lastname">
+                    <label for="lastname">Nom :</label>
+                    <input type="text" placeholder="Nom">
+                </div>
+                <div class="firstname">
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" placeholder="Prénom">
+                </div>
+                <div class="destination">
+                    <label for="destination">Destination souhaitée :</label>
+                    <select name="destination">
+                        <option>Bora-Bora
+                        <option>Hawaï
+                        <option>Tahiti
+                        <option>Inde
+                        <option>Canada
+                    </select>
+                </div>
+                <div class="dates">
+                    <label for="dates">Dates :</label>
+                    <input type="date" min="2022-06-14" /> au <input type="date" min="2022-06-14" />
+                </div>
+                <div class="formulas">
+                    <label for="formula">Formule souhaitée :</label>
+                    <select name="formula">
+                        <option>Standard
+                        <option>Premium
+                        <option>Excellence
+                    </select>
+                </div>
+                <div class="adults">
+                    <label for="adults">Nombre d'adultes :</label>
+                    <select name="adults">
+                        <option>0
+                        <option>1
+                        <option>2
+                        <option>3
+                        <option>4
+                        <option>5
+                        <option>6
+                        <option>7
+                        <option>8
+                        <option>9
+                        <option>10
+                    </select>
+                </div>
+                <div class="child">
+                    <label for="child">Nombre d'enfants (-14 ans) :</label>
+                    <select name="child">
+                        <option>0
+                        <option>1
+                        <option>2
+                        <option>3
+                        <option>4
+                        <option>5
+                        <option>6
+                        <option>7
+                        <option>8
+                        <option>9
+                        <option>10
+                    </select>
+                </div>
+                <div class="validate-reservation">
+                    <button>Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
 
 </body>
+
 </html>

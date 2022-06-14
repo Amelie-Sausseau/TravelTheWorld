@@ -1,22 +1,175 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
 
 /*||||||||NAVBAR||||||||*/
 
-nav{
+nav {
     background: #f6e9df;
     padding: 0%;
 }
 
-.nav-item{
+.nav-item {
     font-size: 1.3rem;
     padding-left: 4vw;
     padding-right: 3vw;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: auto;
     height: 10vh;
+}
+
+/*Bandeau promotion*/
+
+.promotion {
+    background-color: #38b6ff;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    padding: 2rem 0;
+}
+
+
+/*Bandeau avantages*/
+
+.advantages {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 5px 5px grey;
+    padding: 2rem 0;
+}
+
+.adv-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.adv-icons img {
+    width: 30%;
+}
+
+/*vidéo*/
+
+.video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}
+
+.video iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 650px;
+}
+
+/*Formulaire réservation*/
+
+#reservation {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding: 2rem;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form div {
+    margin-bottom: 2rem;
+}
+
+.form input,
+.form select {
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.lastname input,
+.firstname input {
+    width: 30vw;
+}
+
+.validate-reservation {
+    display: flex;
+    justify-content: center;
+}
+
+.validate-reservation button {
+    width: auto;
+    border-radius: 5px;
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    height: 2rem;
+    padding: 0 1rem;
+}
+
+.validate-reservation button:hover {
+    background-color: #fdf9cbff;
+    color: #38b6ff;
+}
+
+@media (max-width: 1200px) {
+    .advantages {
+        font-size: 14px;
+    }
+
+    .video iframe {
+        width: 700px;
+        height: 450px;
+    }
+
+    .lastname input,
+    .firstname input {
+        width: 40vw;
+    }
+
+    .promotion {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantages {
+        flex-direction: column;
+    }
+
+    .video iframe {
+        width: 400px;
+        height: 250px;
+    }
+
+    .lastname input,
+    .firstname input {
+        width: 40vw;
+    }
+
+    .promotion {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .video {
+        padding: 0;
+    }
+
+    .video iframe {
+        width: 200px;
+        height: 100px;
+    }
 }
