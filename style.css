@@ -19,3 +19,15 @@
 .adv-icons img {
     width: 30%;
 }
+
+@media (max-width: 1200px) {
+    .advantages {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantages {
+        flex-direction: column;
+    }
+}
