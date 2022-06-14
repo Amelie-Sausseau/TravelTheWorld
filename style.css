@@ -146,9 +146,21 @@ nav {
     width: 30vw;
 }
 
-.validate-reservation {
+.validate-reservation {}
+
+.navbar-brand img{
+    width: auto;
+    height: 10vh;
+} 
+
+
+
+/*|||||||| 3 f or m u l e ||||||||*/
+
+.col{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .validate-reservation button {
@@ -229,4 +241,65 @@ nav {
     .promotion {
         font-size: 13px;
     }
+}
+.card{
+    width: 25vw;
+    display: flex;
+}
+.card-title{
+    color:  #38b6ff;
+    font-size: 1.8rem;
+}
+
+.card .btn {
+    display: flex;
+    color: white;
+    background: #38b6ff;
+    font-size:1.1rem;
+    transition-duration: 0.5s;
+    align-self: center;
+}
+
+.card .btn:hover{
+    background-color: #ffde59;
+    color:#38b6ff;
+}
+
+
+
+
+
+
+/*|||||||||||| M A P ||||||||*/
+
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99.1vw;
+    filter: grayscale(30%);
+}
+.titre{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.titre h3{
+    color: #38b6ff;
+    margin-top: 5vh;
+    font-size: 1.8rem;
+}
+
+.adress{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+@media all and (max-width=1050px) {
+    .card{
+        width:;
+    }
+    
 }
