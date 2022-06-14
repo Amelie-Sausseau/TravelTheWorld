@@ -146,6 +146,10 @@ nav {
     color: #38b6ff;
 }
 
+#airbnb {
+    width: 15vw
+}
+
 @media (max-width: 1200px) {
     .advantages {
         font-size: 14px;
@@ -166,7 +170,28 @@ nav {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
+    .video {
+        padding: 0;
+    }
+
+    .video iframe {
+        width: 200px;
+        height: 100px;
+    }
+
+    .carousel-caption {
+        top: 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #airbnb {
+        width: 50vw
+    }
+
     .advantages {
         flex-direction: column;
     }
@@ -183,16 +208,5 @@ nav {
 
     .promotion {
         font-size: 13px;
-    }
-}
-
-@media (max-width: 450px) {
-    .video {
-        padding: 0;
-    }
-
-    .video iframe {
-        width: 200px;
-        height: 100px;
     }
 }

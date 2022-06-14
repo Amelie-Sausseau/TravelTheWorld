@@ -13,32 +13,119 @@
 <body>
 
     <!--|||||||||||N A V B A R||||||||||-->
+    <header>
 
-    <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"><img src="img/Logo.png"></a>
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Nos Formules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Partenaires</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#reservation">Réservation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="carrosel">
+
+
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#"><img src="img/Logo.png"></a>
-                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Nos Formules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Partenaires</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#reservation">Réservation</a>
-                    </li>
-                </ul>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img src="./img/borabora (2).jpg" class="d-block w-100" alt="borabora">
+                        <div class="carousel-caption d-none d-md-block w-25">
+                            <h1 class="fs-1">First slide label</h1>
+                            <h2>Some representative placeholder content for the first slide.</h2>
+                            <div class="d-grid gap-2">
+                                <a href=""><button type="button" class="btn btn-light" disabled
+                                        data-bs-toggle="button">Reservation</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/hawaii.jpg" class="d-block w-100" alt="hawaii">
+                        <div class="carousel-caption d-none d-md-block w-25">
+                            <h1 class="fs-1">Second slide label</h1>
+                            <h2>Some representative placeholder content for the second slide.</h2>
+                            <a href=""><button type="button" class="btn btn-light" disabled
+                                    data-bs-toggle="button">Reservation</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/taiti.jpg" class="d-block w-100" alt="taiti">
+                        <div class="carousel-caption d-none d-md-block w-25">
+                            <h1 class="fs-1">Third slide label</h1>
+                            <h2>Some representative placeholder content for the third slide.</h2>
+                            <a href=""><button type="button" class="btn btn-light" disabled
+                                    data-bs-toggle="button">Reservation</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/india-1309206.jpg" class="d-block w-100" alt="inde">
+                        <div class="carousel-caption d-none d-md-block w-25">
+                            <h1 class="fs-1">Third slide label</h1>
+                            <h2>Some representative placeholder content for the third slide.</h2>
+                            <a href=""><button type="button" class="btn btn-light" disabled
+                                    data-bs-toggle="button">Reservation</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/canada.jpg" class="d-block w-100" alt="canada">
+                        <div class="carousel-caption d-none d-md-block w-25">
+                            <h1 class="fs-1">Third slide label</h1>
+                            <h2>Some representative placeholder content for the third slide.</h2>
+                            <a href=""><button type="button" class="btn btn-light" disabled
+                                    data-bs-toggle="button">Reservation</button></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-    </nav>
+
+    </section>
 
     <section class="promotion">
         <p>-15% sur tous les séjours en formule premium ou excellence pour toute réservation avant le 14 juin 2022</p>
@@ -55,6 +142,47 @@
             <p>30 ans d'expérience</p>
         </div>
     </div>
+
+    <section id="Partenaires">
+
+        <div class="container-fluid ">
+
+            <div class="row">
+
+                <div class="card col-md-4 d-flex align-items-center justify-content-center">
+                    <a href="https://www.airbnb.fr/">
+                        <img src="./img/abnb.png" class="mx-auto card-img-top" alt="arbnb" id="airbnb">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Un de nos partenaires, faites votre conservation!</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 d-flex align-items-center justify-content-center">
+                    <a
+                        href="https://www.booking.com/index.fr.html?aid=376366&label=fr-85Sbyi2evytni3mHZEi6UgS267492169156%3Apl%3Ata%3Ap1%3Ap22.563.000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9056296%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Ye7BFAsTyVd6vvamF_no64o&sid=e7dacd550deed6f7bbdcfb389150d0fb&keep_landing=1&redirected=1&source=country&gclid=CjwKCAjw46CVBhB1EiwAgy6M4lW9ZobTmq_wqsowslpa4MRpbxbmE_RuozuOcT-f0MgrJJMZoj1ULxoC-_AQAvD_BwE&">
+                        <img src="./img/booking.png" class="card-img-top" alt="booking">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">L'un des plus grands centres de réservation, nous vous attendons.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 d-flex align-items-center justify-content-center">
+                    <a
+                        href="https://www.latamairlines.com/fr/fr?gclid=CjwKCAjw46CVBhB1EiwAgy6M4mXCdOWAy2qP_aXOrFK3bTFeWCzqF4WDU5OMl2_g-DYHJpL4dGEZGBoC6owQAvD_BwE&gclsrc=aw.ds">
+                        <img src="./img/latam.png" class="card-img-top" alt="latan">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Une entreprise du domaine de confiance vous attend.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
     <div class="video">
         <h2>Apprenez-en plus sur Goa, Inde</h2>
@@ -139,6 +267,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
     </script>
 
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
