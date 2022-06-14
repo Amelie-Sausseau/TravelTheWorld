@@ -155,8 +155,9 @@ nav {
 
 /*|||||||| 3 f or m u l e ||||||||*/
 
-.titre h2 {
-    padding: 2rem;
+#formulas {
+    background-color: #00a5b92e;
+    padding: 3rem;
 }
 
 .btn {
@@ -187,6 +188,14 @@ nav {
 
 
 /*Partenaires*/
+#Partenaires {
+    padding: 3rem;
+}
+
+#Partenaires h2 {
+    text-align: center;
+}
+
 #airbnb {
     width: 15vw
 }
