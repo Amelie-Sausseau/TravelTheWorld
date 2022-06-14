@@ -36,6 +36,56 @@
     height: 650px;
 }
 
+/*Formulaire réservation*/
+
+#reservation {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding: 2rem;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form div {
+    margin-bottom: 2rem;
+}
+
+.form input,
+.form select {
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.lastname input,
+.firstname input {
+    width: 30vw;
+}
+
+.validate-reservation {
+    display: flex;
+    justify-content: center;
+}
+
+.validate-reservation button {
+    width: auto;
+    border-radius: 5px;
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    height: 2rem;
+    padding: 0 1rem;
+}
+
+.validate-reservation button:hover {
+    background-color: #fdf9cbff;
+    color: #38b6ff;
+}
+
 @media (max-width: 1200px) {
     .advantages {
         font-size: 14px;
@@ -45,6 +95,11 @@
         width: 900px;
         height: 450px;
     }
+
+    .lastname input,
+.firstname input {
+    width: 40vw;
+}
 }
 
 @media (max-width: 768px) {
@@ -55,6 +110,11 @@
     .video iframe{
         width: 400px;
         height: 250px;
+    }
+
+    .lastname input,
+    .firstname input {
+        width: 40vw;
     }
 }
 
