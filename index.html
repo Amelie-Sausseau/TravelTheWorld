@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>TravelTheWorld</title>
 </head>
+
 <body>
-    
+
+    <header>
+
+
+        <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+
+                <img src="./img/borabora (2).jpg" class="d-block w-100" alt="borabora">
+                <div class="carousel-caption d-none d-md-block w-25">
+                  <h1 class="fs-1">First slide label</h1>
+                  <h2>Some representative placeholder content for the first slide.</h2>
+                  <div class="d-grid gap-2">
+                    <a href=""><button type="button" class="btn btn-light" disabled data-bs-toggle="button">Reservation</button></a> 
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/hawaii.jpg" class="d-block w-100" alt="hawaii">
+                <div class="carousel-caption d-none d-md-block w-25">
+                  <h1 class="fs-1">Second slide label</h1>
+                  <h2>Some representative placeholder content for the second slide.</h2>
+                  <a href=""><button type="button" class="btn btn-light"  disabled data-bs-toggle="button">Reservation</button></a> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/taiti.jpg" class="d-block w-100" alt="taiti">
+                <div class="carousel-caption d-none d-md-block w-25">
+                  <h1 class="fs-1">Third slide label</h1>
+                  <h2>Some representative placeholder content for the third slide.</h2>
+                  <a href=""><button type="button" class="btn btn-light" disabled data-bs-toggle="button">Reservation</button></a> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/india-1309206.jpg" class="d-block w-100" alt="inde">
+                <div class="carousel-caption d-none d-md-block w-25">
+                  <h1 class="fs-1">Third slide label</h1>
+                  <h2>Some representative placeholder content for the third slide.</h2>
+                  <a href=""><button type="button" class="btn btn-light" disabled data-bs-toggle="button">Reservation</button></a> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/canada.jpg" class="d-block w-100" alt="canada">
+                <div class="carousel-caption d-none d-md-block w-25">
+                  <h1 class="fs-1">Third slide label</h1>
+                  <h2>Some representative placeholder content for the third slide.</h2>
+                  <a href=""><button type="button" class="btn btn-light" disabled data-bs-toggle="button">Reservation</button></a> 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+
+
+
+
+<!-- ************************** ancien carousel********************************************* -->
+        <!-- <section id="carrosel">
+
+            <div id="carouseltripsite" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active" id="imagen1">
+
+                    <img src="./img/borabora.jpg" class="d-block w-100" alt="bora-bora">
+
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1>Bora-Bora</h1>
+                      <p>Un voyage incroyable avec des plages paradisiaques ! Un endroit de rêve...</p>
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item" id="imagen2">
+
+                    
+                    <img src="./img/hawaii.jpg" class="d-block w-100" alt="bora-bora">
+
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1>Hawaii</h1>
+                      <p> Un lieu plein d'aventure et de plaisir, venez vivre les meilleures vacances de votre vie.</p>
+                    </div>
+
+                  <div class="carousel-item" id="imagen3">
+                    <h1>Haiti</h1>
+                    <p> Venez découvrir l'un des plus beaux endroits du monde, et profitez d'un repos sans précédent.</p>
+                    
+
+                  <div class="carousel-item" id="imagen4">
+                    <h1>Inde</h1>
+                    <p> La spiritualité et les mystères d'une terre ancienne pleine de magie, venez la découvrir.</p>
+                   
+                  </div>
+
+                  <div class="carousel-item" id="imagen5">
+                    <h1>Canada</h1>
+                    <p> Un mélange de cultures et de paysages pour des vacances parfaites...</p>
+                   
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouseltripsite" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouseltripsite" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+
+        </section> -->
+
+
+    </header>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
