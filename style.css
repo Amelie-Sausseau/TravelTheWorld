@@ -3,6 +3,17 @@ body {
     padding: 0%;
 }
 
+h2::after {
+    display: block;
+    height: 5px;
+    background-color: #38b6ff;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
 /*||||||||NAVBAR||||||||*/
 
 nav {
@@ -30,7 +41,7 @@ nav {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    height: 5vh;
+    height: auto;
     padding: 2rem 0;
 }
 
@@ -64,6 +75,7 @@ nav {
     flex-direction: column;
     text-align: center;
     padding: 3rem;
+    background-color: #00a5b92e;
 }
 
 .video iframe {
@@ -81,6 +93,17 @@ nav {
     text-align: justify;
     align-items: center;
     padding: 2rem;
+    background-color: #00a5b92e;
+}
+
+.form form {
+    border: 1px lightgrey solid;
+    background-color: white;
+    width: auto;
+    border-radius: 15px;
+    padding: 3rem;
+    -webkit-box-shadow: 5px 5px 15px 5px lightgrey, 3px -2px 4px 3px rgba(194, 194, 194, 0);
+    box-shadow: 5px 5px 15px 5px lightgrey, 3px -2px 4px 3px rgba(194, 194, 194, 0);
 }
 
 .form h2 {
