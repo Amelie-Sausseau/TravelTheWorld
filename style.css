@@ -146,8 +146,6 @@ nav {
     width: 30vw;
 }
 
-.validate-reservation {}
-
 .navbar-brand img{
     width: auto;
     height: 10vh;
@@ -156,6 +154,15 @@ nav {
 
 
 /*|||||||| 3 f or m u l e ||||||||*/
+
+.titre h2 {
+    padding: 2rem;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .col{
     display: flex;
@@ -301,8 +308,5 @@ iframe{
 
 
 @media all and (max-width=1050px) {
-    .card{
-        width:;
-    }
-    
+
 }
