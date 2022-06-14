@@ -1,3 +1,13 @@
 .carousel-caption{ top: 50%;
 
 }
+
+#airbnb {
+    width: 15vw
+}
+
+@media screen and (max-width: 768px) {
+    #airbnb {
+        width: 50vw
+    }
+}
