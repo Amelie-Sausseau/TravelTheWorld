@@ -1,3 +1,17 @@
+/*Bandeau promotion*/
+
+.promotion {
+    background-color: #38b6ff;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    padding: 2rem 0;
+}
+
+
 /*Bandeau avantages*/
 
 .advantages {
@@ -5,7 +19,7 @@
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 10px 5px 5px  grey;
+    box-shadow: 10px 5px 5px grey;
     padding: 2rem 0;
 }
 
@@ -29,7 +43,7 @@
     padding: 3rem;
 }
 
-.video iframe{
+.video iframe {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -91,15 +105,19 @@
         font-size: 14px;
     }
 
-    .video iframe{
-        width: 900px;
+    .video iframe {
+        width: 700px;
         height: 450px;
     }
 
     .lastname input,
-.firstname input {
-    width: 40vw;
-}
+    .firstname input {
+        width: 40vw;
+    }
+
+    .promotion {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -107,7 +125,7 @@
         flex-direction: column;
     }
 
-    .video iframe{
+    .video iframe {
         width: 400px;
         height: 250px;
     }
@@ -116,13 +134,18 @@
     .firstname input {
         width: 40vw;
     }
+
+    .promotion {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 450px) {
     .video {
         padding: 0;
     }
-    .video iframe{
+
+    .video iframe {
         width: 200px;
         height: 100px;
     }
