@@ -1,22 +1,30 @@
-body{
-    margin: 0%;
-    padding: 0%;
+
+
+/*|||||||| 3 f or m u l e ||||||||*/
+
+.col{
+    display: flex;
+    justify-content: center;
 }
 
-/*||||||||NAVBAR||||||||*/
-
-nav{
-    background: #f6e9df;
-    padding: 0%;
+.card{
+    width: 25vw;
+}
+.card-title{
+    color:  #38b6ff;
+    font-size: 1.8rem;
 }
 
-.nav-item{
-    font-size: 1.3rem;
-    padding-left: 4vw;
-    padding-right: 3vw;
+.card .btn {
+    display: flex;
+    color: white;
+    background: #38b6ff;
+    font-size:1.1rem;
+    transition-duration: 0.5s;
+    align-self: center;
 }
 
-.navbar-brand img{
-    width: auto;
-    height: 10vh;
+.card .btn:hover{
+    background-color: #ffde59;
+    color:#38b6ff;
 }
