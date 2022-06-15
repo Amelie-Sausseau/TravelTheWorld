@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
+    overflow-x  : hidden;
 }
 
 h2 {
@@ -157,7 +158,7 @@ nav {
 
 #formulas {
     background-color: #00a5b92e;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .btn {
@@ -170,6 +171,30 @@ nav {
     justify-content: center;
     text-align: center;
 }
+
+.card{
+    width: 55vw;
+    display: flex;
+}
+.card-title{
+    color:  #38b6ff;
+    font-size: 1.8rem;
+}
+
+.card .btn {
+    display: flex;
+    color: white;
+    background: #38b6ff;
+    font-size:1.1rem;
+    transition-duration: 0.7s;
+    align-self: center;
+}
+
+.card .btn:hover{
+    background-color: #ffde59;
+    color:#38b6ff;
+}
+
 
 .validate-reservation button {
     width: auto;
@@ -212,7 +237,7 @@ nav {
     max-width:100vw ;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1291px) {
     .advantages {
         font-size: 14px;
     }
@@ -272,31 +297,6 @@ nav {
         font-size: 13px;
     }
 }
-.card{
-    width: 25vw;
-    display: flex;
-}
-.card-title{
-    color:  #38b6ff;
-    font-size: 1.8rem;
-}
-
-.card .btn {
-    display: flex;
-    color: white;
-    background: #38b6ff;
-    font-size:1.1rem;
-    transition-duration: 0.5s;
-    align-self: center;
-}
-
-.card .btn:hover{
-    background-color: #ffde59;
-    color:#38b6ff;
-}
-
-
-
 
 
 
@@ -323,4 +323,119 @@ iframe{
     font-size: 1.5rem;
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+
+/*|||||||||| F O O T E R |||||||||*/
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f6e9df;
+}
+
+@media all and (max-width: 1024px) {
+    footer{
+        flex-direction: column-reverse;
+    }
+    .footer-container{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 100%;
+        justify-content: center;
+        width: 28vw;
+    }
+    .end-text{
+        width: 100%;
+    }
+    .end-text p{
+    width: 100%;
+    }
+    
+}
+
+@media all and (max-width: 768px){
+    .footer-logo img{
+        width: 50vw;
+    }
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 70%;
+    
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.social-icons svg{
+    display: flex;
+    margin-top: 5vh;
+    width: 60px;
+    fill: #38b6ff;
+    transition: 0.7s;
+}
+
+.social-icons svg:hover{
+    fill: #247aac;
+}
+
+.footer-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    font-size: 1.2rem;
+}
+
+.footer-btn button{
+    width: auto;
+    border-radius: 5px;
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    min-height: 2rem;
+    height: fit-content;
+    padding: 0 1rem;
+    margin: 2vw;
+    transition: 0.8s;
+}
+
+.footer-btn button:hover{
+    background-color: #247aac;
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    width: auto;
+}
+.footer-logo img{
+    width: 27vw;
+    margin: 1vw;
+}
+
+.end-text{
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    font-family: 'Satisfy', cursive;
+    justify-content: flex-end;
+    margin-right: 10vw;
+    margin-top: 50px;
 }
