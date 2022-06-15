@@ -168,10 +168,7 @@ nav {
 #formulas {
     background-color: #00a5b92e;
     padding: 1rem;
-<<<<<<< HEAD
     padding-top: 5rem;
-=======
->>>>>>> 492a0b0fd0413d5eca1c3336dbdb975e5782161d
 }
 
 .btn {
@@ -234,7 +231,6 @@ nav {
     text-align: center;
 }
 
-<<<<<<< HEAD
 #Partenaires p {
 
     font-weight: bold;
@@ -242,8 +238,6 @@ nav {
 
 }
 
-=======
->>>>>>> 492a0b0fd0413d5eca1c3336dbdb975e5782161d
 #airbnb {
     width: 15vw
 }
@@ -257,22 +251,10 @@ nav {
 
 #carte iframe {
     padding-bottom: 5rem;
-<<<<<<< HEAD
     height: 80vh;
     width:80vw ;
 }
 
-=======
-    height: 100vh;
-    max-width:100vw ;
-}
-
-.video h2{
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
->>>>>>> 492a0b0fd0413d5eca1c3336dbdb975e5782161d
 @media (max-width: 1291px) {
     .advantages {
         font-size: 14px;
