@@ -43,9 +43,18 @@ nav {
 }
 
 .navbar-brand img {
+    display: flex;
     width: auto;
     height: 10vh;
 }
+
+@media all and (max-width: "991") {
+    .navbar-brand img{
+        width: 500vw;
+    }
+}
+
+
 
 /*Bandeau promotion*/
 
@@ -237,6 +246,11 @@ nav {
     max-width:100vw ;
 }
 
+.video h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1291px) {
     .advantages {
         font-size: 14px;
@@ -257,13 +271,13 @@ nav {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width:450px) {
     .video {
         padding: 0;
     }
 
     .video iframe {
-        width: 200px;
+        width: 150px;
         height: 100px;
     }
 
@@ -271,8 +285,12 @@ nav {
         top: 50%;
 
     }
+    #Partenaires h2{
+        margin-top: 50px;
+    }
 
 }
+
 
 @media screen and (max-width: 768px) {
     #airbnb {
