@@ -232,7 +232,6 @@ nav {
 }
 
 #Partenaires p {
-
     font-weight: bold;
     text-align: center;
 
@@ -255,7 +254,7 @@ nav {
     width:80vw ;
 }
 
-@media (max-width: 1291px) {
+@media screen and (max-width: 1291px) {
     .advantages {
         font-size: 14px;
     }
@@ -275,9 +274,9 @@ nav {
     }
 }
 
-@media (max-width:450px) {
+@media screen and (max-width: 450px) {
     .video {
-        padding: 0;
+        padding: 20px;
     }
 
     .video iframe {
@@ -290,7 +289,7 @@ nav {
 
     }
     #Partenaires h2{
-        margin-top: 50px;
+        padding: 50px;
     }
 
 }
@@ -306,11 +305,11 @@ nav {
     }
 
     .video iframe {
-        width: 400px;
-        height: 250px;
+        width: 80vw;
+        height: 300px;
     }
 
-    .lastname input,
+
     .firstname input {
         width: 40vw;
     }
